@@ -17,3 +17,16 @@ function checkPrime(num){
     return true;
 }
 console.log(checkPrime(7))
+
+// Function to check if a number is even or odd
+function evenOdd(num) {
+    if(num%2===0){
+        return true;
+    }else {
+        return false;
+   }// Returns true if even, false if odd
+}
+
+// Example usage:
+console.log(evenOdd(4)); // true (even)
+console.log(evenOdd(7)); // false (odd)
